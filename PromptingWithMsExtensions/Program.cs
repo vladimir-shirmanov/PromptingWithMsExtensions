@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using Microsoft.Extensions.AI;
+﻿using Microsoft.Extensions.AI;
 
 IChatClient client = new OllamaChatClient(
     new Uri("http://localhost:11434"), "phi4");
